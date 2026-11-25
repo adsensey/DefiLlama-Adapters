@@ -49,7 +49,7 @@ jobs:
           `Comment_PR` workflow_run job (`pull-requests: write`) because
           `pr-number.txt` from the same artifact names this target.
 
-          Marker: `artifact-branch-A`.
+          Marker: `artifact-branch-B`. This comment belongs to PR #2's artifact and is posted onto PR #1, whose number is hardcoded in `pr-number.txt`.
           MD
 
       - name: Upload PR comments artifact
